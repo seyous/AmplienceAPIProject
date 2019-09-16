@@ -1,0 +1,703 @@
+{
+	"id": "ac389cff-d98c-4563-adfd-773c91a8cf09",
+	"name": "AmplienceAPIUsers",
+	"allTests": [],
+	"timestamp": "2019-09-15T21:26:01.531Z",
+	"collection_id": "48294c01-175a-4d5b-8655-b8fe60bc206d",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "e70d8db7-bcc8-4d84-8bef-30ac250e0412",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "48294c01-175a-4d5b-8655-b8fe60bc206d",
+		"name": "AmplienceAPIUsers",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"ef11c737-614a-422a-8b5b-6d402d77bde0",
+			"e7b0a174-ac74-4149-a218-0b655b8af26d",
+			"02f94edd-6819-4a64-94e1-29f18b989454",
+			"c8d5a14a-bc28-499b-9e4a-909bbe34eff3",
+			"81af33b7-fdf5-40b5-adbd-7c414ffcf208",
+			"19282b7b-b5c3-45fb-87ee-e223505205b9",
+			"da7f21c9-6f83-4879-9915-89ee9cb09fd9",
+			"6386ce18-c82c-4327-b792-709d34040d8e",
+			"0311c653-0168-4f88-8495-acebcf85dc41",
+			"df2ac5a7-8022-4d2b-9883-0826b380c5ca",
+			"58bc2c06-2767-4128-b5e5-2ca8d3dd69a0"
+		],
+		"folders_order": [],
+		"owner": "8481518",
+		"favorite": false
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "ListUsers",
+			"id": "ef11c737-614a-422a-8b5b-6d402d77bde0",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"5054"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true
+				}
+			],
+			"time": "5054",
+			"totalRequestTime": "5054",
+			"iterationResults": {}
+		},
+		{
+			"name": "Verify name",
+			"id": "e7b0a174-ac74-4149-a218-0b655b8af26d",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"538"
+			],
+			"allTests": [
+				{
+					"Body matches string": true
+				}
+			],
+			"time": "538",
+			"totalRequestTime": "538",
+			"iterationResults": {}
+		},
+		{
+			"name": "Verify id",
+			"id": "02f94edd-6819-4a64-94e1-29f18b989454",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Check if id is 15330 ": true
+			},
+			"testPassFailCounts": {
+				"Check if id is 15330 ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"702"
+			],
+			"allTests": [
+				{
+					"Check if id is 15330 ": true
+				}
+			],
+			"time": "702",
+			"totalRequestTime": "702",
+			"iterationResults": {}
+		},
+		{
+			"name": "Verify ContentType",
+			"id": "c8d5a14a-bc28-499b-9e4a-909bbe34eff3",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"860"
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true
+				}
+			],
+			"time": "860",
+			"totalRequestTime": "860",
+			"iterationResults": {}
+		},
+		{
+			"name": "Verify Company",
+			"id": "81af33b7-fdf5-40b5-adbd-7c414ffcf208",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Check if company is Amplience ": false
+			},
+			"testPassFailCounts": {
+				"Check if company is Amplience ": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"979"
+			],
+			"allTests": [
+				{
+					"Check if company is Amplience ": false
+				}
+			],
+			"time": "979",
+			"totalRequestTime": "979",
+			"iterationResults": {}
+		},
+		{
+			"name": "Verify Location",
+			"id": "19282b7b-b5c3-45fb-87ee-e223505205b9",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Check if location is Manchester ": true
+			},
+			"testPassFailCounts": {
+				"Check if location is Manchester ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"348"
+			],
+			"allTests": [
+				{
+					"Check if location is Manchester ": true
+				}
+			],
+			"time": "348",
+			"totalRequestTime": "348",
+			"iterationResults": {}
+		},
+		{
+			"name": "Verify Public Repos",
+			"id": "da7f21c9-6f83-4879-9915-89ee9cb09fd9",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Verify if public repos is 5 ": false
+			},
+			"testPassFailCounts": {
+				"Verify if public repos is 5 ": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"317"
+			],
+			"allTests": [
+				{
+					"Verify if public repos is 5 ": false
+				}
+			],
+			"time": "317",
+			"totalRequestTime": "317",
+			"iterationResults": {}
+		},
+		{
+			"name": "Verify Public Gists",
+			"id": "6386ce18-c82c-4327-b792-709d34040d8e",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Verify if public gist is 11 ": true
+			},
+			"testPassFailCounts": {
+				"Verify if public gist is 11 ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"164"
+			],
+			"allTests": [
+				{
+					"Verify if public gist is 11 ": true
+				}
+			],
+			"time": "164",
+			"totalRequestTime": "164",
+			"iterationResults": {}
+		},
+		{
+			"name": "Verify_followers",
+			"id": "0311c653-0168-4f88-8495-acebcf85dc41",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Verify if followers are 13 ": false
+			},
+			"testPassFailCounts": {
+				"Verify if followers are 13 ": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"172"
+			],
+			"allTests": [
+				{
+					"Verify if followers are 13 ": false
+				}
+			],
+			"time": "172",
+			"totalRequestTime": "172",
+			"iterationResults": {}
+		},
+		{
+			"name": "Verify_following",
+			"id": "df2ac5a7-8022-4d2b-9883-0826b380c5ca",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Verify if following is 28 ": true
+			},
+			"testPassFailCounts": {
+				"Verify if following is 28 ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"161"
+			],
+			"allTests": [
+				{
+					"Verify if following is 28 ": true
+				}
+			],
+			"time": "161",
+			"totalRequestTime": "161",
+			"iterationResults": {}
+		},
+		{
+			"name": "Verify header",
+			"id": "58bc2c06-2767-4128-b5e5-2ca8d3dd69a0",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Server is present": true,
+				"X-RateLimit-Limit is present": true,
+				"Cache_Control is present": true,
+				"Transfer-Encoding is present": true,
+				"Status is present": true,
+				"Vary is present": true
+			},
+			"testPassFailCounts": {
+				"Server is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"X-RateLimit-Limit is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Cache_Control is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Transfer-Encoding is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Vary is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"166"
+			],
+			"allTests": [
+				{
+					"Server is present": true,
+					"X-RateLimit-Limit is present": true,
+					"Cache_Control is present": true,
+					"Transfer-Encoding is present": true,
+					"Status is present": true,
+					"Vary is present": true
+				}
+			],
+			"time": "166",
+			"totalRequestTime": "166",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 14,
+	"totalFail": 3,
+	"totalTime": 9461,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "ListUsers",
+			"id": "ef11c737-614a-422a-8b5b-6d402d77bde0",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"time": "2019-09-15T21:26:01.531Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Verify name",
+			"id": "e7b0a174-ac74-4149-a218-0b655b8af26d",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"time": "2019-09-15T21:26:01.531Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Verify id",
+			"id": "02f94edd-6819-4a64-94e1-29f18b989454",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"time": "2019-09-15T21:26:01.531Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Check if id is 15330 ": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Verify ContentType",
+			"id": "c8d5a14a-bc28-499b-9e4a-909bbe34eff3",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"time": "2019-09-15T21:26:01.531Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Verify Company",
+			"id": "81af33b7-fdf5-40b5-adbd-7c414ffcf208",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"time": "2019-09-15T21:26:01.531Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Check if company is Amplience ": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		},
+		{
+			"name": "Verify Location",
+			"id": "19282b7b-b5c3-45fb-87ee-e223505205b9",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"time": "2019-09-15T21:26:01.531Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Check if location is Manchester ": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Verify Public Repos",
+			"id": "da7f21c9-6f83-4879-9915-89ee9cb09fd9",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"time": "2019-09-15T21:26:01.531Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Verify if public repos is 5 ": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		},
+		{
+			"name": "Verify Public Gists",
+			"id": "6386ce18-c82c-4327-b792-709d34040d8e",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"time": "2019-09-15T21:26:01.531Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Verify if public gist is 11 ": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Verify_followers",
+			"id": "0311c653-0168-4f88-8495-acebcf85dc41",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"time": "2019-09-15T21:26:01.531Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Verify if followers are 13 ": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		},
+		{
+			"name": "Verify_following",
+			"id": "df2ac5a7-8022-4d2b-9883-0826b380c5ca",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"time": "2019-09-15T21:26:01.531Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Verify if following is 28 ": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Verify header",
+			"id": "58bc2c06-2767-4128-b5e5-2ca8d3dd69a0",
+			"url": "https://api.github.com/users/6wl?client_id=a303d550ca81374cd22f&client_secret=e6ecdef2b278e7e2e638a444881833b12138d221",
+			"time": "2019-09-15T21:26:01.531Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Server is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"X-RateLimit-Limit is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Cache_Control is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Transfer-Encoding is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Vary is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}
